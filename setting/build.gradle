@@ -42,3 +42,10 @@ buildscript {
     }
 }
 apply plugin: 'byte-modify'
+apply plugin: 'blog-plugin'
+
+bpplugin {
+    words "plugin_words.txt"
+    enumClass "WordsEnum"
+    outputPackage "com.afterecho.android.util"
+}

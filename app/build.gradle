@@ -44,14 +44,14 @@ buildscript {
     }
 }
 
-apply plugin: 'blogplugin'
 apply plugin: 'byte-modify'
-
-bpplugin {
-    words "plugin_words.txt"
-    enumClass "WordsEnum"
-    outputPackage "com.afterecho.android.util"
-}
+//apply plugin: 'blog-plugin'
+//
+//bpplugin {
+//    words "plugin_words.txt"
+//    enumClass "WordsEnum"
+//    outputPackage "com.afterecho.android.util"
+//}
 
 
 
