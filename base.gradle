@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+// JVM 版本号要求
+sourceCompatibility = 1.6
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+ext.androidPluginVersion='2.1.0'
+ext.buildBaseVersion = "25.1.0" //sdklib等库的版本号
+buildDir = "target"
+
+apply from: 'http://gitlab.alibaba-inc.com/android-build-system/buildscript/raw/master/mtl-publish.gradle'
