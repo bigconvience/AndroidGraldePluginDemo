@@ -1,0 +1,1532 @@
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/jiangbenpeng/Downloads/android-sdk-macosx/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/jiangbenpeng/Downloads/android-sdk-macosx/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Incremental java compilation is an incubating feature.
+:clean
+:app:clean
+:blogplugin:clean UP-TO-DATE
+:myplugin:clean UP-TO-DATE
+:setting:clean
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:setting:preBuild UP-TO-DATE
+:setting:preReleaseBuild UP-TO-DATE
+:setting:checkReleaseManifest
+:setting:preDebugAndroidTestBuild UP-TO-DATE
+:setting:preDebugBuild UP-TO-DATE
+:setting:preDebugUnitTestBuild UP-TO-DATE
+:setting:preReleaseUnitTestBuild UP-TO-DATE
+:setting:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:setting:prepareComAndroidSupportAppcompatV72531Library
+:setting:prepareComAndroidSupportSupportCompat2531Library
+:setting:prepareComAndroidSupportSupportCoreUi2531Library
+:setting:prepareComAndroidSupportSupportCoreUtils2531Library
+:setting:prepareComAndroidSupportSupportFragment2531Library
+:setting:prepareComAndroidSupportSupportMediaCompat2531Library
+:setting:prepareComAndroidSupportSupportV42531Library
+:setting:prepareComAndroidSupportSupportVectorDrawable2531Library
+:setting:prepareReleaseDependencies
+:setting:compileReleaseAidl
+:setting:compileReleaseNdk UP-TO-DATE
+:setting:compileLint
+:setting:copyReleaseLint UP-TO-DATE
+:setting:compileReleaseRenderscript
+:setting:generateReleaseBuildConfig
+:setting:generateReleaseResValues
+:setting:generateReleaseResources
+:setting:mergeReleaseResources
+:setting:processReleaseManifest
+:setting:processReleaseResources
+:setting:generateReleaseSources
+:setting:incrementalReleaseJavaCompilationSafeguard
+:setting:javaPreCompileRelease
+:setting:compileReleaseJavaWithJavac
+:setting:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:setting:extractReleaseAnnotations
+:setting:mergeReleaseShaders
+:setting:compileReleaseShaders
+:setting:generateReleaseAssets
+:setting:mergeReleaseAssets
+:setting:mergeReleaseProguardFiles UP-TO-DATE
+:setting:packageReleaseRenderscript UP-TO-DATE
+:setting:packageReleaseResources
+:setting:processReleaseJavaRes UP-TO-DATE
+:setting:transformResourcesWithMergeJavaResForRelease
+:setting:transformClassesAndResourcesWithSyncLibJarsForRelease
+:setting:mergeReleaseJniLibFolders
+:setting:transformNativeLibsWithMergeJniLibsForRelease
+:setting:transformNativeLibsWithSyncJniLibsForRelease
+:setting:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:setting:checkDebugManifest
+:setting:prepareDebugDependencies
+:setting:compileDebugAidl
+:setting:compileDebugNdk UP-TO-DATE
+:setting:copyDebugLint UP-TO-DATE
+:setting:compileDebugRenderscript
+:setting:generateDebugBuildConfig
+:setting:generateDebugResValues
+:setting:generateDebugResources
+:setting:mergeDebugResources
+:setting:processDebugManifest
+:setting:processDebugResources
+:setting:generateDebugSources
+:setting:incrementalDebugJavaCompilationSafeguard
+:setting:javaPreCompileDebug
+:setting:compileDebugJavaWithJavac
+:setting:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:setting:transformLogLifeCycleProcessorDebug
+Transforming com.example.setting.AbsSettingActivity
+Skipping finalize. Either it is final, private or doesn't start by 'on...'
+Skipping navigateUpTo. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreatePanelView(int)
+android.app.Activity.onCreatePanelView(int),start:1497530186883,end:1497530186883
+android.app.Activity.onCreatePanelView(int)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onPrepareNavigateUpTaskStack(android.app.TaskStackBuilder)
+android.app.Activity.onPrepareNavigateUpTaskStack(android.app.TaskStackBuilder),start:1497530186884,end:1497530186884
+android.app.Activity.onPrepareNavigateUpTaskStack(android.app.TaskStackBuilder)
+Override didn't work [source error] no such field: injectTime
+Skipping getColor. Either it is final, private or doesn't start by 'on...'
+Skipping setWallpaper. Either it is final, private or doesn't start by 'on...'
+Skipping onRetainNonConfigurationInstance. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onPreparePanel(int,android.view.View,android.view.Menu)
+android.support.v4.app.FragmentActivity.onPreparePanel(int,android.view.View,android.view.Menu),start:1497530186884,end:1497530186884
+android.support.v4.app.FragmentActivity.onPreparePanel(int,android.view.View,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping setTaskDescription. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onEnterAnimationComplete()
+android.app.Activity.onEnterAnimationComplete(),start:1497530186885,end:1497530186885
+android.app.Activity.onEnterAnimationComplete()
+Override didn't work [source error] no such field: injectTime
+Skipping setVrModeEnabled. Either it is final, private or doesn't start by 'on...'
+Skipping getActionBar. Either it is final, private or doesn't start by 'on...'
+Skipping setContentTransitionManager. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateDialog(int)
+android.app.Activity.onCreateDialog(int),start:1497530186885,end:1497530186885
+android.app.Activity.onCreateDialog(int)
+Override didn't work [source error] no such field: injectTime
+Skipping obtainStyledAttributes. Either it is final, private or doesn't start by 'on...'
+Skipping getCallingPackage. Either it is final, private or doesn't start by 'on...'
+Skipping setTitle. Either it is final, private or doesn't start by 'on...'
+Skipping sendOrderedBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping enforceCallingUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping sendBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping getDelegate. Either it is final, private or doesn't start by 'on...'
+Skipping getApplicationInfo. Either it is final, private or doesn't start by 'on...'
+Skipping checkCallingOrSelfUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping obtainStyledAttributes. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchKeyEvent. Either it is final, private or doesn't start by 'on...'
+Skipping getNoBackupFilesDir. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onMenuOpened(int,android.view.Menu)
+android.support.v7.app.AppCompatActivity.onMenuOpened(int,android.view.Menu),start:1497530186886,end:1497530186886
+android.support.v7.app.AppCompatActivity.onMenuOpened(int,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onBackPressed()
+android.support.v4.app.FragmentActivity.onBackPressed(),start:1497530186886,end:1497530186886
+android.support.v4.app.FragmentActivity.onBackPressed()
+Override didn't work [source error] no such field: injectTime
+Skipping startLocalVoiceInteraction. Either it is final, private or doesn't start by 'on...'
+Overriding com.example.setting.AbsSettingActivity.onCreate(android.os.Bundle)
+com.example.setting.AbsSettingActivity.onCreate(android.os.Bundle),start:1497530186886,end:1497530186886
+com.example.setting.AbsSettingActivity.onCreate(android.os.Bundle)
+{ com.ali.music.api.core.util.PageTrack.getInstance().track("com.example.setting.AbsSettingActivity.onCreate(android.os.Bundle)", injectTime, System.currentTimeMillis());}
+Override successful onCreate
+Skipping checkCallingUriPermission. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onGenericMotionEvent(android.view.MotionEvent)
+android.app.Activity.onGenericMotionEvent(android.view.MotionEvent),start:1497530186890,end:1497530186890
+android.app.Activity.onGenericMotionEvent(android.view.MotionEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping setFeatureDrawable. Either it is final, private or doesn't start by 'on...'
+Skipping setImmersive. Either it is final, private or doesn't start by 'on...'
+Skipping finishActivityFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping sendOrderedBroadcast. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onTouchEvent(android.view.MotionEvent)
+android.app.Activity.onTouchEvent(android.view.MotionEvent),start:1497530186891,end:1497530186891
+android.app.Activity.onTouchEvent(android.view.MotionEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping getSystemServiceName. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onAttachFragment(android.app.Fragment)
+android.app.Activity.onAttachFragment(android.app.Fragment),start:1497530186891,end:1497530186891
+android.app.Activity.onAttachFragment(android.app.Fragment)
+Override didn't work [source error] no such field: injectTime
+Skipping getDrawerToggleDelegate. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityForResult. Either it is final, private or doesn't start by 'on...'
+Skipping fileList. Either it is final, private or doesn't start by 'on...'
+Skipping isInPictureInPictureMode. Either it is final, private or doesn't start by 'on...'
+Skipping notify. Either it is final, private or doesn't start by 'on...'
+Skipping unbindService. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSaveInstanceState(android.os.Bundle)
+android.support.v7.app.AppCompatActivity.onSaveInstanceState(android.os.Bundle),start:1497530186892,end:1497530186892
+android.support.v7.app.AppCompatActivity.onSaveInstanceState(android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback,int)
+android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback,int),start:1497530186892,end:1497530186892
+android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback,int)
+Override didn't work [source error] no such field: injectTime
+Skipping isChangingConfigurations. Either it is final, private or doesn't start by 'on...'
+Skipping equals. Either it is final, private or doesn't start by 'on...'
+Skipping isDestroyed. Either it is final, private or doesn't start by 'on...'
+Skipping getVoiceInteractor. Either it is final, private or doesn't start by 'on...'
+Skipping findViewById. Either it is final, private or doesn't start by 'on...'
+Skipping getDrawable. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalFilesDirs. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onApplyThemeResource(android.content.res.Resources$Theme,int,boolean)
+android.app.Activity.onApplyThemeResource(android.content.res.Resources$Theme,int,boolean),start:1497530186893,end:1497530186893
+android.app.Activity.onApplyThemeResource(android.content.res.Resources$Theme,int,boolean)
+Override didn't work [source error] no such field: injectTime
+Skipping closeOptionsMenu. Either it is final, private or doesn't start by 'on...'
+Skipping isInMultiWindowMode. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateOptionsMenu(android.view.Menu)
+android.app.Activity.onCreateOptionsMenu(android.view.Menu),start:1497530186893,end:1497530186893
+android.app.Activity.onCreateOptionsMenu(android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v7.app.AppCompatActivity.onStart()
+android.support.v7.app.AppCompatActivity.onStart(),start:1497530186893,end:1497530186893
+android.support.v7.app.AppCompatActivity.onStart()
+Override didn't work [source error] no such field: injectTime
+Skipping getTaskId. Either it is final, private or doesn't start by 'on...'
+Skipping getMenuInflater. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSupportNavigateUp()
+android.support.v7.app.AppCompatActivity.onSupportNavigateUp(),start:1497530186894,end:1497530186894
+android.support.v7.app.AppCompatActivity.onSupportNavigateUp()
+Override didn't work [source error] no such field: injectTime
+Skipping createConfigurationContext. Either it is final, private or doesn't start by 'on...'
+Skipping showDialog. Either it is final, private or doesn't start by 'on...'
+Skipping getVolumeControlStream. Either it is final, private or doesn't start by 'on...'
+Skipping runOnUiThread. Either it is final, private or doesn't start by 'on...'
+Skipping getAssets. Either it is final, private or doesn't start by 'on...'
+Skipping registerForContextMenu. Either it is final, private or doesn't start by 'on...'
+Skipping startManagingCursor. Either it is final, private or doesn't start by 'on...'
+Skipping createDisplayContext. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onRequestPermissionsResult(int,java.lang.String[],int[])
+android.support.v4.app.FragmentActivity.onRequestPermissionsResult(int,java.lang.String[],int[]),start:1497530186895,end:1497530186895
+android.support.v4.app.FragmentActivity.onRequestPermissionsResult(int,java.lang.String[],int[])
+Override didn't work [source error] no such field: injectTime
+Skipping getLocalClassName. Either it is final, private or doesn't start by 'on...'
+Skipping setRequestedOrientation. Either it is final, private or doesn't start by 'on...'
+Skipping clone. Either it is final, private or doesn't start by 'on...'
+Skipping addContentView. Either it is final, private or doesn't start by 'on...'
+Skipping setDefaultKeyMode. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onPrepareDialog(int,android.app.Dialog,android.os.Bundle)
+android.app.Activity.onPrepareDialog(int,android.app.Dialog,android.os.Bundle),start:1497530186895,end:1497530186895
+android.app.Activity.onPrepareDialog(int,android.app.Dialog,android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Skipping setSupportProgressBarVisibility. Either it is final, private or doesn't start by 'on...'
+Skipping setSupportProgress. Either it is final, private or doesn't start by 'on...'
+Skipping getReferrer. Either it is final, private or doesn't start by 'on...'
+Skipping setMediaController. Either it is final, private or doesn't start by 'on...'
+Skipping setWallpaper. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onSearchRequested()
+android.app.Activity.onSearchRequested(),start:1497530186895,end:1497530186895
+android.app.Activity.onSearchRequested()
+Override didn't work [source error] no such field: injectTime
+Skipping setResult. Either it is final, private or doesn't start by 'on...'
+Skipping getPackageManager. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromFragment. Either it is final, private or doesn't start by 'on...'
+Skipping startSearch. Either it is final, private or doesn't start by 'on...'
+Skipping getClass. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchTouchEvent. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onSaveInstanceState(android.os.Bundle,android.os.PersistableBundle)
+android.app.Activity.onSaveInstanceState(android.os.Bundle,android.os.PersistableBundle),start:1497530186896,end:1497530186896
+android.app.Activity.onSaveInstanceState(android.os.Bundle,android.os.PersistableBundle)
+Override didn't work [source error] no such field: injectTime
+Skipping obtainStyledAttributes. Either it is final, private or doesn't start by 'on...'
+Skipping removeStickyBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping enforceCallingOrSelfUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping isFinishing. Either it is final, private or doesn't start by 'on...'
+Skipping stopService. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderFromFragment. Either it is final, private or doesn't start by 'on...'
+Skipping getApplicationContext. Either it is final, private or doesn't start by 'on...'
+Skipping registerComponentCallbacks. Either it is final, private or doesn't start by 'on...'
+Skipping finishAndRemoveTask. Either it is final, private or doesn't start by 'on...'
+Skipping setSecondaryProgress. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+android.app.Activity.onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo),start:1497530186897,end:1497530186897
+android.app.Activity.onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+Override didn't work [source error] no such field: injectTime
+Skipping getSupportParentActivityIntent. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchPopulateAccessibilityEvent. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onWindowStartingSupportActionMode(android.support.v7.view.ActionMode$Callback)
+android.support.v7.app.AppCompatActivity.onWindowStartingSupportActionMode(android.support.v7.view.ActionMode$Callback),start:1497530186897,end:1497530186897
+android.support.v7.app.AppCompatActivity.onWindowStartingSupportActionMode(android.support.v7.view.ActionMode$Callback)
+Override didn't work [source error] no such field: injectTime
+Skipping requestPermissionsFromFragment. Either it is final, private or doesn't start by 'on...'
+Skipping getTheme. Either it is final, private or doesn't start by 'on...'
+Skipping getPackageCodePath. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSender. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalCacheDir. Either it is final, private or doesn't start by 'on...'
+Skipping createPendingResult. Either it is final, private or doesn't start by 'on...'
+Skipping unregisterForContextMenu. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onPrepareSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder)
+android.support.v7.app.AppCompatActivity.onPrepareSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder),start:1497530186899,end:1497530186899
+android.support.v7.app.AppCompatActivity.onPrepareSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder)
+Override didn't work [source error] no such field: injectTime
+Skipping startActivityFromFragment. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onCreatePanelMenu(int,android.view.Menu)
+android.support.v4.app.FragmentActivity.onCreatePanelMenu(int,android.view.Menu),start:1497530186900,end:1497530186900
+android.support.v4.app.FragmentActivity.onCreatePanelMenu(int,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping sendStickyOrderedBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping startActivity. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSupportActionModeStarted(android.support.v7.view.ActionMode)
+android.support.v7.app.AppCompatActivity.onSupportActionModeStarted(android.support.v7.view.ActionMode),start:1497530186901,end:1497530186901
+android.support.v7.app.AppCompatActivity.onSupportActionModeStarted(android.support.v7.view.ActionMode)
+Override didn't work [source error] no such field: injectTime
+Skipping startActivities. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateDescription()
+android.app.Activity.onCreateDescription(),start:1497530186901,end:1497530186901
+android.app.Activity.onCreateDescription()
+Override didn't work [source error] no such field: injectTime
+Skipping sendBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping setVolumeControlStream. Either it is final, private or doesn't start by 'on...'
+Skipping isTaskRoot. Either it is final, private or doesn't start by 'on...'
+Skipping getContentScene. Either it is final, private or doesn't start by 'on...'
+Skipping getCallingActivity. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onKeyLongPress(int,android.view.KeyEvent)
+android.app.Activity.onKeyLongPress(int,android.view.KeyEvent),start:1497530186902,end:1497530186902
+android.app.Activity.onKeyLongPress(int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping startService. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreate(android.os.Bundle,android.os.PersistableBundle)
+android.app.Activity.onCreate(android.os.Bundle,android.os.PersistableBundle),start:1497530186902,end:1497530186902
+android.app.Activity.onCreate(android.os.Bundle,android.os.PersistableBundle)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onRestoreInstanceState(android.os.Bundle)
+android.app.Activity.onRestoreInstanceState(android.os.Bundle),start:1497530186903,end:1497530186903
+android.app.Activity.onRestoreInstanceState(android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v7.app.AppCompatActivity.onContentChanged()
+android.support.v7.app.AppCompatActivity.onContentChanged(),start:1497530186904,end:1497530186904
+android.support.v7.app.AppCompatActivity.onContentChanged()
+Override didn't work [source error] no such field: injectTime
+Skipping releaseInstance. Either it is final, private or doesn't start by 'on...'
+Skipping getWallpaper. Either it is final, private or doesn't start by 'on...'
+Skipping getPreferences. Either it is final, private or doesn't start by 'on...'
+Skipping startPostponedEnterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping startActionMode. Either it is final, private or doesn't start by 'on...'
+Skipping getParent. Either it is final, private or doesn't start by 'on...'
+Skipping requestShowKeyboardShortcuts. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalCacheDirs. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping showAssist. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentActivity.onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet),start:1497530186905,end:1497530186905
+android.support.v4.app.FragmentActivity.onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet)
+Override didn't work [source error] no such field: injectTime
+Skipping finishAfterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping supportStartPostponedEnterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping sendStickyOrderedBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping setActionBar. Either it is final, private or doesn't start by 'on...'
+Skipping peekWallpaper. Either it is final, private or doesn't start by 'on...'
+Skipping unregisterReceiver. Either it is final, private or doesn't start by 'on...'
+Skipping getSystemService. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderForResult. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onResumeFragments()
+android.support.v4.app.FragmentActivity.onResumeFragments(),start:1497530186905,end:1497530186905
+android.support.v4.app.FragmentActivity.onResumeFragments()
+Override didn't work [source error] no such field: injectTime
+Skipping shouldUpRecreateTask. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSupportContentChanged()
+android.support.v7.app.AppCompatActivity.onSupportContentChanged(),start:1497530186906,end:1497530186906
+android.support.v7.app.AppCompatActivity.onSupportContentChanged()
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onActionModeFinished(android.view.ActionMode)
+android.app.Activity.onActionModeFinished(android.view.ActionMode),start:1497530186906,end:1497530186906
+android.app.Activity.onActionModeFinished(android.view.ActionMode)
+Override didn't work [source error] no such field: injectTime
+Skipping isDeviceProtectedStorage. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback)
+android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback),start:1497530186907,end:1497530186907
+android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback)
+Override didn't work [source error] no such field: injectTime
+Skipping setTitleColor. Either it is final, private or doesn't start by 'on...'
+Skipping removeDialog. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onTrackballEvent(android.view.MotionEvent)
+android.app.Activity.onTrackballEvent(android.view.MotionEvent),start:1497530186908,end:1497530186908
+android.app.Activity.onTrackballEvent(android.view.MotionEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping openOptionsMenu. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onOptionsMenuClosed(android.view.Menu)
+android.app.Activity.onOptionsMenuClosed(android.view.Menu),start:1497530186909,end:1497530186909
+android.app.Activity.onOptionsMenuClosed(android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping hasWindowFocus. Either it is final, private or doesn't start by 'on...'
+Skipping stopLocalVoiceInteraction. Either it is final, private or doesn't start by 'on...'
+Skipping unregisterComponentCallbacks. Either it is final, private or doesn't start by 'on...'
+Skipping getLastCustomNonConfigurationInstance. Either it is final, private or doesn't start by 'on...'
+Skipping dismissKeyboardShortcutsHelper. Either it is final, private or doesn't start by 'on...'
+Skipping getCacheDir. Either it is final, private or doesn't start by 'on...'
+Skipping createDeviceProtectedStorageContext. Either it is final, private or doesn't start by 'on...'
+Skipping openOrCreateDatabase. Either it is final, private or doesn't start by 'on...'
+Skipping obtainStyledAttributes. Either it is final, private or doesn't start by 'on...'
+Skipping finishActivity. Either it is final, private or doesn't start by 'on...'
+Skipping deleteDatabase. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onProvideReferrer()
+android.app.Activity.onProvideReferrer(),start:1497530186910,end:1497530186910
+android.app.Activity.onProvideReferrer()
+Override didn't work [source error] no such field: injectTime
+Skipping toString. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onDetachedFromWindow()
+android.app.Activity.onDetachedFromWindow(),start:1497530186911,end:1497530186911
+android.app.Activity.onDetachedFromWindow()
+Override didn't work [source error] no such field: injectTime
+Skipping wait. Either it is final, private or doesn't start by 'on...'
+Skipping getTitleColor. Either it is final, private or doesn't start by 'on...'
+Skipping sendStickyBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onOptionsItemSelected(android.view.MenuItem)
+android.app.Activity.onOptionsItemSelected(android.view.MenuItem),start:1497530186911,end:1497530186911
+android.app.Activity.onOptionsItemSelected(android.view.MenuItem)
+Override didn't work [source error] no such field: injectTime
+Skipping deleteFile. Either it is final, private or doesn't start by 'on...'
+Skipping moveSharedPreferencesFrom. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onPrepareDialog(int,android.app.Dialog)
+android.app.Activity.onPrepareDialog(int,android.app.Dialog),start:1497530186911,end:1497530186911
+android.app.Activity.onPrepareDialog(int,android.app.Dialog)
+Override didn't work [source error] no such field: injectTime
+Skipping setVisible. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromFragment. Either it is final, private or doesn't start by 'on...'
+Skipping setEnterSharedElementCallback. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onActionModeStarted(android.view.ActionMode)
+android.app.Activity.onActionModeStarted(android.view.ActionMode),start:1497530186912,end:1497530186912
+android.app.Activity.onActionModeStarted(android.view.ActionMode)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onWindowFocusChanged(boolean)
+android.app.Activity.onWindowFocusChanged(boolean),start:1497530186912,end:1497530186912
+android.app.Activity.onWindowFocusChanged(boolean)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onCreateNavigateUpTaskStack(android.app.TaskStackBuilder)
+android.app.Activity.onCreateNavigateUpTaskStack(android.app.TaskStackBuilder),start:1497530186912,end:1497530186912
+android.app.Activity.onCreateNavigateUpTaskStack(android.app.TaskStackBuilder)
+Override didn't work [source error] no such field: injectTime
+Skipping getDir. Either it is final, private or doesn't start by 'on...'
+Skipping getObbDir. Either it is final, private or doesn't start by 'on...'
+Skipping registerReceiver. Either it is final, private or doesn't start by 'on...'
+Skipping supportRequestWindowFeature. Either it is final, private or doesn't start by 'on...'
+Skipping reportFullyDrawn. Either it is final, private or doesn't start by 'on...'
+Skipping registerReceiver. Either it is final, private or doesn't start by 'on...'
+Skipping getDatabasePath. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping setSupportActionBar. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onResume()
+android.support.v4.app.FragmentActivity.onResume(),start:1497530186913,end:1497530186913
+android.support.v4.app.FragmentActivity.onResume()
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onAttachFragment(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentActivity.onAttachFragment(android.support.v4.app.Fragment),start:1497530186913,end:1497530186913
+android.support.v4.app.FragmentActivity.onAttachFragment(android.support.v4.app.Fragment)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentActivity.onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet),start:1497530186914,end:1497530186914
+android.support.v4.app.FragmentActivity.onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet)
+Override didn't work [source error] no such field: injectTime
+Skipping shouldShowRequestPermissionRationale. Either it is final, private or doesn't start by 'on...'
+Skipping recreate. Either it is final, private or doesn't start by 'on...'
+Skipping checkCallingOrSelfPermission. Either it is final, private or doesn't start by 'on...'
+Skipping startNextMatchingActivity. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onTrimMemory(int)
+android.app.Activity.onTrimMemory(int),start:1497530186915,end:1497530186915
+android.app.Activity.onTrimMemory(int)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onPause()
+android.support.v4.app.FragmentActivity.onPause(),start:1497530186916,end:1497530186916
+android.support.v4.app.FragmentActivity.onPause()
+Override didn't work [source error] no such field: injectTime
+Skipping getChangingConfigurations. Either it is final, private or doesn't start by 'on...'
+Skipping wait. Either it is final, private or doesn't start by 'on...'
+Skipping getWallpaperDesiredMinimumWidth. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping enforceCallingPermission. Either it is final, private or doesn't start by 'on...'
+Skipping dismissDialog. Either it is final, private or doesn't start by 'on...'
+Skipping setContentView. Either it is final, private or doesn't start by 'on...'
+Skipping startActivities. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onKeyDown(int,android.view.KeyEvent)
+android.app.Activity.onKeyDown(int,android.view.KeyEvent),start:1497530186917,end:1497530186917
+android.app.Activity.onKeyDown(int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping sendOrderedBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping doReallyStop. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onRestoreInstanceState(android.os.Bundle,android.os.PersistableBundle)
+android.app.Activity.onRestoreInstanceState(android.os.Bundle,android.os.PersistableBundle),start:1497530186917,end:1497530186917
+android.app.Activity.onRestoreInstanceState(android.os.Bundle,android.os.PersistableBundle)
+Override didn't work [source error] no such field: injectTime
+Skipping postponeEnterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping setFeatureDrawableUri. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityIfNeeded. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromFragment. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onCreateSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder)
+android.support.v7.app.AppCompatActivity.onCreateSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder),start:1497530186918,end:1497530186918
+android.support.v7.app.AppCompatActivity.onCreateSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder)
+Override didn't work [source error] no such field: injectTime
+Skipping getDataDir. Either it is final, private or doesn't start by 'on...'
+Skipping putExtraData. Either it is final, private or doesn't start by 'on...'
+Skipping hashCode. Either it is final, private or doesn't start by 'on...'
+Skipping getExtraData. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onTitleChanged(java.lang.CharSequence,int)
+android.support.v7.app.AppCompatActivity.onTitleChanged(java.lang.CharSequence,int),start:1497530186918,end:1497530186918
+android.support.v7.app.AppCompatActivity.onTitleChanged(java.lang.CharSequence,int)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onKeyUp(int,android.view.KeyEvent)
+android.app.Activity.onKeyUp(int,android.view.KeyEvent),start:1497530186919,end:1497530186919
+android.app.Activity.onKeyUp(int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onCreateThumbnail(android.graphics.Bitmap,android.graphics.Canvas)
+android.app.Activity.onCreateThumbnail(android.graphics.Bitmap,android.graphics.Canvas),start:1497530186919,end:1497530186919
+android.app.Activity.onCreateThumbnail(android.graphics.Bitmap,android.graphics.Canvas)
+Override didn't work [source error] no such field: injectTime
+Skipping getMainLooper. Either it is final, private or doesn't start by 'on...'
+Skipping sendStickyBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping requestVisibleBehind. Either it is final, private or doesn't start by 'on...'
+Skipping getString. Either it is final, private or doesn't start by 'on...'
+Skipping closeContextMenu. Either it is final, private or doesn't start by 'on...'
+Skipping getSupportLoaderManager. Either it is final, private or doesn't start by 'on...'
+Skipping stopManagingCursor. Either it is final, private or doesn't start by 'on...'
+Skipping setContentView. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onPrepareOptionsPanel(android.view.View,android.view.Menu)
+android.support.v4.app.FragmentActivity.onPrepareOptionsPanel(android.view.View,android.view.Menu),start:1497530186920,end:1497530186920
+android.support.v4.app.FragmentActivity.onPrepareOptionsPanel(android.view.View,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping setSupportProgressBarIndeterminate. Either it is final, private or doesn't start by 'on...'
+Skipping getColorStateList. Either it is final, private or doesn't start by 'on...'
+Skipping requestPermissions. Either it is final, private or doesn't start by 'on...'
+Skipping getCodeCacheDir. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onRetainCustomNonConfigurationInstance()
+android.support.v4.app.FragmentActivity.onRetainCustomNonConfigurationInstance(),start:1497530186921,end:1497530186921
+android.support.v4.app.FragmentActivity.onRetainCustomNonConfigurationInstance()
+Override didn't work [source error] no such field: injectTime
+Skipping overridePendingTransition. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onUserInteraction()
+android.app.Activity.onUserInteraction(),start:1497530186921,end:1497530186921
+android.app.Activity.onUserInteraction()
+Override didn't work [source error] no such field: injectTime
+Skipping getLayoutInflater. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onStop()
+android.support.v7.app.AppCompatActivity.onStop(),start:1497530186921,end:1497530186921
+android.support.v7.app.AppCompatActivity.onStop()
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onWindowAttributesChanged(android.view.WindowManager$LayoutParams)
+android.app.Activity.onWindowAttributesChanged(android.view.WindowManager$LayoutParams),start:1497530186921,end:1497530186921
+android.app.Activity.onWindowAttributesChanged(android.view.WindowManager$LayoutParams)
+Override didn't work [source error] no such field: injectTime
+Skipping requestDragAndDropPermissions. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSupportActionModeFinished(android.support.v7.view.ActionMode)
+android.support.v7.app.AppCompatActivity.onSupportActionModeFinished(android.support.v7.view.ActionMode),start:1497530186922,end:1497530186922
+android.support.v7.app.AppCompatActivity.onSupportActionModeFinished(android.support.v7.view.ActionMode)
+Override didn't work [source error] no such field: injectTime
+Skipping setSupportMediaController. Either it is final, private or doesn't start by 'on...'
+Skipping supportShouldUpRecreateTask. Either it is final, private or doesn't start by 'on...'
+Skipping setProgressBarIndeterminateVisibility. Either it is final, private or doesn't start by 'on...'
+Skipping removeStickyBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchGenericMotionEvent. Either it is final, private or doesn't start by 'on...'
+Skipping getWindowManager. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onPrepareOptionsMenu(android.view.Menu)
+android.app.Activity.onPrepareOptionsMenu(android.view.Menu),start:1497530186922,end:1497530186922
+android.app.Activity.onPrepareOptionsMenu(android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping enforceCallingOrSelfPermission. Either it is final, private or doesn't start by 'on...'
+Skipping startNextMatchingActivity. Either it is final, private or doesn't start by 'on...'
+Skipping finishFromChild. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onContextMenuClosed(android.view.Menu)
+android.app.Activity.onContextMenuClosed(android.view.Menu),start:1497530186923,end:1497530186923
+android.app.Activity.onContextMenuClosed(android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping setFinishOnTouchOutside. Either it is final, private or doesn't start by 'on...'
+Skipping startSupportActionMode. Either it is final, private or doesn't start by 'on...'
+Skipping invalidateOptionsMenu. Either it is final, private or doesn't start by 'on...'
+Skipping setExitSharedElementCallback. Either it is final, private or doesn't start by 'on...'
+Skipping revokeUriPermission. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onLocalVoiceInteractionStopped()
+android.app.Activity.onLocalVoiceInteractionStopped(),start:1497530186924,end:1497530186924
+android.app.Activity.onLocalVoiceInteractionStopped()
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onActivityResult(int,int,android.content.Intent)
+android.support.v4.app.FragmentActivity.onActivityResult(int,int,android.content.Intent),start:1497530186924,end:1497530186924
+android.support.v4.app.FragmentActivity.onActivityResult(int,int,android.content.Intent)
+Override didn't work [source error] no such field: injectTime
+Skipping finishAffinity. Either it is final, private or doesn't start by 'on...'
+Skipping setFeatureDrawableAlpha. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onKeyMultiple(int,int,android.view.KeyEvent)
+android.app.Activity.onKeyMultiple(int,int,android.view.KeyEvent),start:1497530186926,end:1497530186926
+android.app.Activity.onKeyMultiple(int,int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping getTitle. Either it is final, private or doesn't start by 'on...'
+Skipping createPackageContext. Either it is final, private or doesn't start by 'on...'
+Skipping enforceUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderForResult. Either it is final, private or doesn't start by 'on...'
+Skipping clearWallpaper. Either it is final, private or doesn't start by 'on...'
+Skipping isLocalVoiceInteractionSupported. Either it is final, private or doesn't start by 'on...'
+Skipping isRestricted. Either it is final, private or doesn't start by 'on...'
+Skipping openFileOutput. Either it is final, private or doesn't start by 'on...'
+Skipping supportFinishAfterTransition. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onReallyStop()
+android.support.v4.app.FragmentActivity.onReallyStop(),start:1497530186927,end:1497530186927
+android.support.v4.app.FragmentActivity.onReallyStop()
+Override didn't work [source error] no such field: injectTime
+Skipping onMenuItemSelected. Either it is final, private or doesn't start by 'on...'
+Skipping getSupportActionBar. Either it is final, private or doesn't start by 'on...'
+Skipping startActivity. Either it is final, private or doesn't start by 'on...'
+Skipping enforcePermission. Either it is final, private or doesn't start by 'on...'
+Skipping getString. Either it is final, private or doesn't start by 'on...'
+Skipping openFileInput. Either it is final, private or doesn't start by 'on...'
+Skipping getContentTransitionManager. Either it is final, private or doesn't start by 'on...'
+Skipping supportPostponeEnterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchTrackballEvent. Either it is final, private or doesn't start by 'on...'
+Skipping notifyAll. Either it is final, private or doesn't start by 'on...'
+Skipping getRequestedOrientation. Either it is final, private or doesn't start by 'on...'
+Skipping sendBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping checkSelfPermission. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onActivityReenter(int,android.content.Intent)
+android.app.Activity.onActivityReenter(int,android.content.Intent),start:1497530186933,end:1497530186933
+android.app.Activity.onActivityReenter(int,android.content.Intent)
+Override didn't work [source error] no such field: injectTime
+Skipping getSharedPreferences. Either it is final, private or doesn't start by 'on...'
+Skipping setSupportProgressBarIndeterminateVisibility. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalFilesDir. Either it is final, private or doesn't start by 'on...'
+Skipping startActionMode. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onPanelClosed(int,android.view.Menu)
+android.support.v7.app.AppCompatActivity.onPanelClosed(int,android.view.Menu),start:1497530186934,end:1497530186934
+android.support.v7.app.AppCompatActivity.onPanelClosed(int,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping triggerSearch. Either it is final, private or doesn't start by 'on...'
+Skipping takeKeyEvents. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onVisibleBehindCanceled()
+android.app.Activity.onVisibleBehindCanceled(),start:1497530186935,end:1497530186935
+android.app.Activity.onVisibleBehindCanceled()
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onProvideAssistContent(android.app.assist.AssistContent)
+android.app.Activity.onProvideAssistContent(android.app.assist.AssistContent),start:1497530186936,end:1497530186936
+android.app.Activity.onProvideAssistContent(android.app.assist.AssistContent)
+Override didn't work [source error] no such field: injectTime
+Skipping startActivityIfNeeded. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityForResult. Either it is final, private or doesn't start by 'on...'
+Skipping getSupportFragmentManager. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromChild. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onLocalVoiceInteractionStarted()
+android.app.Activity.onLocalVoiceInteractionStarted(),start:1497530186937,end:1497530186937
+android.app.Activity.onLocalVoiceInteractionStarted()
+Override didn't work [source error] no such field: injectTime
+Skipping moveDatabaseFrom. Either it is final, private or doesn't start by 'on...'
+Skipping setIntent. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalMediaDirs. Either it is final, private or doesn't start by 'on...'
+Skipping finish. Either it is final, private or doesn't start by 'on...'
+Skipping checkUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping moveTaskToBack. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onConfigurationChanged(android.content.res.Configuration)
+android.support.v7.app.AppCompatActivity.onConfigurationChanged(android.content.res.Configuration),start:1497530186938,end:1497530186938
+android.support.v7.app.AppCompatActivity.onConfigurationChanged(android.content.res.Configuration)
+Override didn't work [source error] no such field: injectTime
+Skipping attachBaseContext. Either it is final, private or doesn't start by 'on...'
+Skipping navigateUpToFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping setProgressBarIndeterminate. Either it is final, private or doesn't start by 'on...'
+Skipping showLockTaskEscapeMessage. Either it is final, private or doesn't start by 'on...'
+Skipping getContentResolver. Either it is final, private or doesn't start by 'on...'
+Skipping getLoaderManager. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onProvideAssistData(android.os.Bundle)
+android.app.Activity.onProvideAssistData(android.os.Bundle),start:1497530186938,end:1497530186938
+android.app.Activity.onProvideAssistData(android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onPostCreate(android.os.Bundle,android.os.PersistableBundle)
+android.app.Activity.onPostCreate(android.os.Bundle,android.os.PersistableBundle),start:1497530186939,end:1497530186939
+android.app.Activity.onPostCreate(android.os.Bundle,android.os.PersistableBundle)
+Override didn't work [source error] no such field: injectTime
+Skipping stopLockTask. Either it is final, private or doesn't start by 'on...'
+Skipping getWindow. Either it is final, private or doesn't start by 'on...'
+Skipping wait. Either it is final, private or doesn't start by 'on...'
+Skipping openOrCreateDatabase. Either it is final, private or doesn't start by 'on...'
+Skipping checkForValidRequestCode. Either it is final, private or doesn't start by 'on...'
+Skipping openContextMenu. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onStateNotSaved()
+android.support.v4.app.FragmentActivity.onStateNotSaved(),start:1497530186940,end:1497530186940
+android.support.v4.app.FragmentActivity.onStateNotSaved()
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onLowMemory()
+android.support.v4.app.FragmentActivity.onLowMemory(),start:1497530186940,end:1497530186940
+android.support.v4.app.FragmentActivity.onLowMemory()
+Override didn't work [source error] no such field: injectTime
+Skipping deleteSharedPreferences. Either it is final, private or doesn't start by 'on...'
+Skipping setTitle. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onNewIntent(android.content.Intent)
+android.support.v4.app.FragmentActivity.onNewIntent(android.content.Intent),start:1497530186941,end:1497530186941
+android.support.v4.app.FragmentActivity.onNewIntent(android.content.Intent)
+Override didn't work [source error] no such field: injectTime
+Skipping startLockTask. Either it is final, private or doesn't start by 'on...'
+Skipping bindService. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onRestart()
+android.app.Activity.onRestart(),start:1497530186941,end:1497530186941
+android.app.Activity.onRestart()
+Override didn't work [source error] no such field: injectTime
+Skipping printName. Either it is final, private or doesn't start by 'on...'
+Skipping getObbDirs. Either it is final, private or doesn't start by 'on...'
+Skipping getSearchEvent. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onUserLeaveHint()
+android.app.Activity.onUserLeaveHint(),start:1497530186942,end:1497530186942
+android.app.Activity.onUserLeaveHint()
+Override didn't work [source error] no such field: injectTime
+Skipping dump. Either it is final, private or doesn't start by 'on...'
+Skipping validateRequestPermissionsRequestCode. Either it is final, private or doesn't start by 'on...'
+Skipping databaseList. Either it is final, private or doesn't start by 'on...'
+Skipping setResult. Either it is final, private or doesn't start by 'on...'
+Skipping supportNavigateUpTo. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateDialog(int,android.os.Bundle)
+android.app.Activity.onCreateDialog(int,android.os.Bundle),start:1497530186943,end:1497530186943
+android.app.Activity.onCreateDialog(int,android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Skipping getLastNonConfigurationInstance. Either it is final, private or doesn't start by 'on...'
+Skipping getClassLoader. Either it is final, private or doesn't start by 'on...'
+Skipping checkUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping requestWindowFeature. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onSearchRequested(android.view.SearchEvent)
+android.app.Activity.onSearchRequested(android.view.SearchEvent),start:1497530186943,end:1497530186943
+android.app.Activity.onSearchRequested(android.view.SearchEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping setContentView. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchKeyShortcutEvent. Either it is final, private or doesn't start by 'on...'
+Skipping isChild. Either it is final, private or doesn't start by 'on...'
+Skipping isVoiceInteractionRoot. Either it is final, private or doesn't start by 'on...'
+Skipping getApplication. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onKeyShortcut(int,android.view.KeyEvent)
+android.app.Activity.onKeyShortcut(int,android.view.KeyEvent),start:1497530186943,end:1497530186943
+android.app.Activity.onKeyShortcut(int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping getFragmentManager. Either it is final, private or doesn't start by 'on...'
+Skipping enforceUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping supportInvalidateOptionsMenu. Either it is final, private or doesn't start by 'on...'
+Skipping isVoiceInteraction. Either it is final, private or doesn't start by 'on...'
+Skipping setProgressBarVisibility. Either it is final, private or doesn't start by 'on...'
+Skipping getFilesDir. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchFragmentsOnCreateView. Either it is final, private or doesn't start by 'on...'
+Skipping getSystemService. Either it is final, private or doesn't start by 'on...'
+Skipping getBaseContext. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onContextItemSelected(android.view.MenuItem)
+android.app.Activity.onContextItemSelected(android.view.MenuItem),start:1497530186944,end:1497530186944
+android.app.Activity.onContextItemSelected(android.view.MenuItem)
+Override didn't work [source error] no such field: injectTime
+Skipping getComponentName. Either it is final, private or doesn't start by 'on...'
+Skipping getWallpaperDesiredMinimumHeight. Either it is final, private or doesn't start by 'on...'
+Skipping grantUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping isImmersive. Either it is final, private or doesn't start by 'on...'
+Skipping getCurrentFocus. Either it is final, private or doesn't start by 'on...'
+Skipping setProgress. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSender. Either it is final, private or doesn't start by 'on...'
+Skipping setFeatureDrawableResource. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onProvideKeyboardShortcuts(java.util.List,android.view.Menu,int)
+android.app.Activity.onProvideKeyboardShortcuts(java.util.List,android.view.Menu,int),start:1497530186944,end:1497530186944
+android.app.Activity.onProvideKeyboardShortcuts(java.util.List,android.view.Menu,int)
+Override didn't work [source error] no such field: injectTime
+Skipping getSupportMediaController. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onNavigateUpFromChild(android.app.Activity)
+android.app.Activity.onNavigateUpFromChild(android.app.Activity),start:1497530186944,end:1497530186944
+android.app.Activity.onNavigateUpFromChild(android.app.Activity)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onAttachedToWindow()
+android.app.Activity.onAttachedToWindow(),start:1497530186944,end:1497530186944
+android.app.Activity.onAttachedToWindow()
+Override didn't work [source error] no such field: injectTime
+Skipping managedQuery. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onNavigateUp()
+android.app.Activity.onNavigateUp(),start:1497530186945,end:1497530186945
+android.app.Activity.onNavigateUp()
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v7.app.AppCompatActivity.onDestroy()
+android.support.v7.app.AppCompatActivity.onDestroy(),start:1497530186945,end:1497530186945
+android.support.v7.app.AppCompatActivity.onDestroy()
+Override didn't work [source error] no such field: injectTime
+Skipping getFileStreamPath. Either it is final, private or doesn't start by 'on...'
+Skipping getIntent. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onMultiWindowModeChanged(boolean)
+android.support.v4.app.FragmentActivity.onMultiWindowModeChanged(boolean),start:1497530186946,end:1497530186946
+android.support.v4.app.FragmentActivity.onMultiWindowModeChanged(boolean)
+Override didn't work [source error] no such field: injectTime
+Skipping getMediaController. Either it is final, private or doesn't start by 'on...'
+Skipping setEnterSharedElementCallback. Either it is final, private or doesn't start by 'on...'
+Skipping showDialog. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onPostResume()
+android.support.v7.app.AppCompatActivity.onPostResume(),start:1497530186947,end:1497530186947
+android.support.v7.app.AppCompatActivity.onPostResume()
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onChildTitleChanged(android.app.Activity,java.lang.CharSequence)
+android.app.Activity.onChildTitleChanged(android.app.Activity,java.lang.CharSequence),start:1497530186947,end:1497530186947
+android.app.Activity.onChildTitleChanged(android.app.Activity,java.lang.CharSequence)
+Override didn't work [source error] no such field: injectTime
+Skipping getPackageResourcePath. Either it is final, private or doesn't start by 'on...'
+Skipping checkPermission. Either it is final, private or doesn't start by 'on...'
+Skipping getPackageName. Either it is final, private or doesn't start by 'on...'
+Skipping getResources. Either it is final, private or doesn't start by 'on...'
+Skipping setExitSharedElementCallback. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onPictureInPictureModeChanged(boolean)
+android.support.v4.app.FragmentActivity.onPictureInPictureModeChanged(boolean),start:1497530186949,end:1497530186949
+android.support.v4.app.FragmentActivity.onPictureInPictureModeChanged(boolean)
+Override didn't work [source error] no such field: injectTime
+Skipping setTheme. Either it is final, private or doesn't start by 'on...'
+Skipping getText. Either it is final, private or doesn't start by 'on...'
+Skipping enterPictureInPictureMode. Either it is final, private or doesn't start by 'on...'
+Skipping getParentActivityIntent. Either it is final, private or doesn't start by 'on...'
+Skipping applyOverrideConfiguration. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onPostCreate(android.os.Bundle)
+android.support.v7.app.AppCompatActivity.onPostCreate(android.os.Bundle),start:1497530186950,end:1497530186950
+android.support.v7.app.AppCompatActivity.onPostCreate(android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Skipping sendBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping startInstrumentation. Either it is final, private or doesn't start by 'on...'
+Skipping checkCallingPermission. Either it is final, private or doesn't start by 'on...'
+Transformation successful for com.example.setting.AbsSettingActivity
+Transforming com.example.setting.SettingActivity
+Skipping finalize. Either it is final, private or doesn't start by 'on...'
+Skipping navigateUpTo. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreatePanelView(int)
+android.app.Activity.onCreatePanelView(int),start:1497530186953,end:1497530186953
+android.app.Activity.onCreatePanelView(int)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onPrepareNavigateUpTaskStack(android.app.TaskStackBuilder)
+android.app.Activity.onPrepareNavigateUpTaskStack(android.app.TaskStackBuilder),start:1497530186953,end:1497530186953
+android.app.Activity.onPrepareNavigateUpTaskStack(android.app.TaskStackBuilder)
+Override didn't work [source error] no such field: injectTime
+Skipping getColor. Either it is final, private or doesn't start by 'on...'
+Skipping setWallpaper. Either it is final, private or doesn't start by 'on...'
+Skipping onRetainNonConfigurationInstance. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onPreparePanel(int,android.view.View,android.view.Menu)
+android.support.v4.app.FragmentActivity.onPreparePanel(int,android.view.View,android.view.Menu),start:1497530186954,end:1497530186954
+android.support.v4.app.FragmentActivity.onPreparePanel(int,android.view.View,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping setTaskDescription. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onEnterAnimationComplete()
+android.app.Activity.onEnterAnimationComplete(),start:1497530186954,end:1497530186954
+android.app.Activity.onEnterAnimationComplete()
+Override didn't work [source error] no such field: injectTime
+Skipping setVrModeEnabled. Either it is final, private or doesn't start by 'on...'
+Skipping getActionBar. Either it is final, private or doesn't start by 'on...'
+Skipping setContentTransitionManager. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateDialog(int)
+android.app.Activity.onCreateDialog(int),start:1497530186954,end:1497530186954
+android.app.Activity.onCreateDialog(int)
+Override didn't work [source error] no such field: injectTime
+Skipping obtainStyledAttributes. Either it is final, private or doesn't start by 'on...'
+Skipping getCallingPackage. Either it is final, private or doesn't start by 'on...'
+Skipping setTitle. Either it is final, private or doesn't start by 'on...'
+Skipping sendOrderedBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping enforceCallingUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping sendBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping getDelegate. Either it is final, private or doesn't start by 'on...'
+Skipping getApplicationInfo. Either it is final, private or doesn't start by 'on...'
+Skipping checkCallingOrSelfUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping obtainStyledAttributes. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchKeyEvent. Either it is final, private or doesn't start by 'on...'
+Skipping getNoBackupFilesDir. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onMenuOpened(int,android.view.Menu)
+android.support.v7.app.AppCompatActivity.onMenuOpened(int,android.view.Menu),start:1497530186955,end:1497530186955
+android.support.v7.app.AppCompatActivity.onMenuOpened(int,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onBackPressed()
+android.support.v4.app.FragmentActivity.onBackPressed(),start:1497530186955,end:1497530186955
+android.support.v4.app.FragmentActivity.onBackPressed()
+Override didn't work [source error] no such field: injectTime
+Skipping startLocalVoiceInteraction. Either it is final, private or doesn't start by 'on...'
+Overriding com.example.setting.SettingActivity.onCreate(android.os.Bundle)
+com.example.setting.SettingActivity.onCreate(android.os.Bundle),start:1497530186956,end:1497530186956
+com.example.setting.SettingActivity.onCreate(android.os.Bundle)
+{ com.ali.music.api.core.util.PageTrack.getInstance().track("com.example.setting.SettingActivity.onCreate(android.os.Bundle)", injectTime, System.currentTimeMillis());}
+Override successful onCreate
+Skipping checkCallingUriPermission. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onGenericMotionEvent(android.view.MotionEvent)
+android.app.Activity.onGenericMotionEvent(android.view.MotionEvent),start:1497530186958,end:1497530186958
+android.app.Activity.onGenericMotionEvent(android.view.MotionEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping setFeatureDrawable. Either it is final, private or doesn't start by 'on...'
+Skipping setImmersive. Either it is final, private or doesn't start by 'on...'
+Skipping finishActivityFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping sendOrderedBroadcast. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onTouchEvent(android.view.MotionEvent)
+android.app.Activity.onTouchEvent(android.view.MotionEvent),start:1497530186958,end:1497530186958
+android.app.Activity.onTouchEvent(android.view.MotionEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping getSystemServiceName. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onAttachFragment(android.app.Fragment)
+android.app.Activity.onAttachFragment(android.app.Fragment),start:1497530186959,end:1497530186959
+android.app.Activity.onAttachFragment(android.app.Fragment)
+Override didn't work [source error] no such field: injectTime
+Skipping getDrawerToggleDelegate. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityForResult. Either it is final, private or doesn't start by 'on...'
+Skipping fileList. Either it is final, private or doesn't start by 'on...'
+Skipping isInPictureInPictureMode. Either it is final, private or doesn't start by 'on...'
+Skipping notify. Either it is final, private or doesn't start by 'on...'
+Skipping unbindService. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSaveInstanceState(android.os.Bundle)
+android.support.v7.app.AppCompatActivity.onSaveInstanceState(android.os.Bundle),start:1497530186960,end:1497530186960
+android.support.v7.app.AppCompatActivity.onSaveInstanceState(android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback,int)
+android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback,int),start:1497530186960,end:1497530186960
+android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback,int)
+Override didn't work [source error] no such field: injectTime
+Skipping isChangingConfigurations. Either it is final, private or doesn't start by 'on...'
+Skipping equals. Either it is final, private or doesn't start by 'on...'
+Skipping isDestroyed. Either it is final, private or doesn't start by 'on...'
+Skipping getVoiceInteractor. Either it is final, private or doesn't start by 'on...'
+Skipping findViewById. Either it is final, private or doesn't start by 'on...'
+Skipping getDrawable. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalFilesDirs. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onApplyThemeResource(android.content.res.Resources$Theme,int,boolean)
+android.app.Activity.onApplyThemeResource(android.content.res.Resources$Theme,int,boolean),start:1497530186961,end:1497530186961
+android.app.Activity.onApplyThemeResource(android.content.res.Resources$Theme,int,boolean)
+Override didn't work [source error] no such field: injectTime
+Skipping closeOptionsMenu. Either it is final, private or doesn't start by 'on...'
+Skipping isInMultiWindowMode. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateOptionsMenu(android.view.Menu)
+android.app.Activity.onCreateOptionsMenu(android.view.Menu),start:1497530186962,end:1497530186962
+android.app.Activity.onCreateOptionsMenu(android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v7.app.AppCompatActivity.onStart()
+android.support.v7.app.AppCompatActivity.onStart(),start:1497530186962,end:1497530186962
+android.support.v7.app.AppCompatActivity.onStart()
+Override didn't work [source error] no such field: injectTime
+Skipping getTaskId. Either it is final, private or doesn't start by 'on...'
+Skipping getMenuInflater. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSupportNavigateUp()
+android.support.v7.app.AppCompatActivity.onSupportNavigateUp(),start:1497530186962,end:1497530186962
+android.support.v7.app.AppCompatActivity.onSupportNavigateUp()
+Override didn't work [source error] no such field: injectTime
+Skipping createConfigurationContext. Either it is final, private or doesn't start by 'on...'
+Skipping showDialog. Either it is final, private or doesn't start by 'on...'
+Skipping getVolumeControlStream. Either it is final, private or doesn't start by 'on...'
+Skipping runOnUiThread. Either it is final, private or doesn't start by 'on...'
+Skipping getAssets. Either it is final, private or doesn't start by 'on...'
+Skipping registerForContextMenu. Either it is final, private or doesn't start by 'on...'
+Skipping startManagingCursor. Either it is final, private or doesn't start by 'on...'
+Skipping createDisplayContext. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onRequestPermissionsResult(int,java.lang.String[],int[])
+android.support.v4.app.FragmentActivity.onRequestPermissionsResult(int,java.lang.String[],int[]),start:1497530186963,end:1497530186963
+android.support.v4.app.FragmentActivity.onRequestPermissionsResult(int,java.lang.String[],int[])
+Override didn't work [source error] no such field: injectTime
+Skipping getLocalClassName. Either it is final, private or doesn't start by 'on...'
+Skipping setRequestedOrientation. Either it is final, private or doesn't start by 'on...'
+Skipping clone. Either it is final, private or doesn't start by 'on...'
+Skipping addContentView. Either it is final, private or doesn't start by 'on...'
+Skipping setDefaultKeyMode. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onPrepareDialog(int,android.app.Dialog,android.os.Bundle)
+android.app.Activity.onPrepareDialog(int,android.app.Dialog,android.os.Bundle),start:1497530186964,end:1497530186964
+android.app.Activity.onPrepareDialog(int,android.app.Dialog,android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Skipping setSupportProgressBarVisibility. Either it is final, private or doesn't start by 'on...'
+Skipping setSupportProgress. Either it is final, private or doesn't start by 'on...'
+Skipping getReferrer. Either it is final, private or doesn't start by 'on...'
+Skipping setMediaController. Either it is final, private or doesn't start by 'on...'
+Skipping setWallpaper. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onSearchRequested()
+android.app.Activity.onSearchRequested(),start:1497530186964,end:1497530186964
+android.app.Activity.onSearchRequested()
+Override didn't work [source error] no such field: injectTime
+Skipping setResult. Either it is final, private or doesn't start by 'on...'
+Skipping getPackageManager. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromFragment. Either it is final, private or doesn't start by 'on...'
+Skipping startSearch. Either it is final, private or doesn't start by 'on...'
+Skipping getClass. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchTouchEvent. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onSaveInstanceState(android.os.Bundle,android.os.PersistableBundle)
+android.app.Activity.onSaveInstanceState(android.os.Bundle,android.os.PersistableBundle),start:1497530186965,end:1497530186965
+android.app.Activity.onSaveInstanceState(android.os.Bundle,android.os.PersistableBundle)
+Override didn't work [source error] no such field: injectTime
+Skipping obtainStyledAttributes. Either it is final, private or doesn't start by 'on...'
+Skipping removeStickyBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping enforceCallingOrSelfUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping isFinishing. Either it is final, private or doesn't start by 'on...'
+Skipping stopService. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderFromFragment. Either it is final, private or doesn't start by 'on...'
+Skipping getApplicationContext. Either it is final, private or doesn't start by 'on...'
+Skipping registerComponentCallbacks. Either it is final, private or doesn't start by 'on...'
+Skipping finishAndRemoveTask. Either it is final, private or doesn't start by 'on...'
+Skipping setSecondaryProgress. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+android.app.Activity.onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo),start:1497530186966,end:1497530186966
+android.app.Activity.onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+Override didn't work [source error] no such field: injectTime
+Skipping getSupportParentActivityIntent. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchPopulateAccessibilityEvent. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onWindowStartingSupportActionMode(android.support.v7.view.ActionMode$Callback)
+android.support.v7.app.AppCompatActivity.onWindowStartingSupportActionMode(android.support.v7.view.ActionMode$Callback),start:1497530186966,end:1497530186966
+android.support.v7.app.AppCompatActivity.onWindowStartingSupportActionMode(android.support.v7.view.ActionMode$Callback)
+Override didn't work [source error] no such field: injectTime
+Skipping requestPermissionsFromFragment. Either it is final, private or doesn't start by 'on...'
+Skipping getTheme. Either it is final, private or doesn't start by 'on...'
+Skipping getPackageCodePath. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSender. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalCacheDir. Either it is final, private or doesn't start by 'on...'
+Skipping createPendingResult. Either it is final, private or doesn't start by 'on...'
+Skipping unregisterForContextMenu. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onPrepareSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder)
+android.support.v7.app.AppCompatActivity.onPrepareSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder),start:1497530186967,end:1497530186967
+android.support.v7.app.AppCompatActivity.onPrepareSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder)
+Override didn't work [source error] no such field: injectTime
+Skipping startActivityFromFragment. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onCreatePanelMenu(int,android.view.Menu)
+android.support.v4.app.FragmentActivity.onCreatePanelMenu(int,android.view.Menu),start:1497530186968,end:1497530186968
+android.support.v4.app.FragmentActivity.onCreatePanelMenu(int,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping sendStickyOrderedBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping startActivity. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSupportActionModeStarted(android.support.v7.view.ActionMode)
+android.support.v7.app.AppCompatActivity.onSupportActionModeStarted(android.support.v7.view.ActionMode),start:1497530186968,end:1497530186968
+android.support.v7.app.AppCompatActivity.onSupportActionModeStarted(android.support.v7.view.ActionMode)
+Override didn't work [source error] no such field: injectTime
+Skipping startActivities. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateDescription()
+android.app.Activity.onCreateDescription(),start:1497530186969,end:1497530186969
+android.app.Activity.onCreateDescription()
+Override didn't work [source error] no such field: injectTime
+Skipping sendBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping setVolumeControlStream. Either it is final, private or doesn't start by 'on...'
+Skipping isTaskRoot. Either it is final, private or doesn't start by 'on...'
+Skipping getContentScene. Either it is final, private or doesn't start by 'on...'
+Skipping getCallingActivity. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onKeyLongPress(int,android.view.KeyEvent)
+android.app.Activity.onKeyLongPress(int,android.view.KeyEvent),start:1497530186969,end:1497530186969
+android.app.Activity.onKeyLongPress(int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping startService. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreate(android.os.Bundle,android.os.PersistableBundle)
+android.app.Activity.onCreate(android.os.Bundle,android.os.PersistableBundle),start:1497530186969,end:1497530186969
+android.app.Activity.onCreate(android.os.Bundle,android.os.PersistableBundle)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onRestoreInstanceState(android.os.Bundle)
+android.app.Activity.onRestoreInstanceState(android.os.Bundle),start:1497530186970,end:1497530186970
+android.app.Activity.onRestoreInstanceState(android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v7.app.AppCompatActivity.onContentChanged()
+android.support.v7.app.AppCompatActivity.onContentChanged(),start:1497530186970,end:1497530186970
+android.support.v7.app.AppCompatActivity.onContentChanged()
+Override didn't work [source error] no such field: injectTime
+Skipping releaseInstance. Either it is final, private or doesn't start by 'on...'
+Skipping getWallpaper. Either it is final, private or doesn't start by 'on...'
+Skipping getPreferences. Either it is final, private or doesn't start by 'on...'
+Skipping startPostponedEnterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping startActionMode. Either it is final, private or doesn't start by 'on...'
+Skipping getParent. Either it is final, private or doesn't start by 'on...'
+Skipping requestShowKeyboardShortcuts. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalCacheDirs. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping showAssist. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentActivity.onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet),start:1497530186971,end:1497530186971
+android.support.v4.app.FragmentActivity.onCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet)
+Override didn't work [source error] no such field: injectTime
+Skipping finishAfterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping supportStartPostponedEnterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping sendStickyOrderedBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping setActionBar. Either it is final, private or doesn't start by 'on...'
+Skipping peekWallpaper. Either it is final, private or doesn't start by 'on...'
+Skipping unregisterReceiver. Either it is final, private or doesn't start by 'on...'
+Skipping getSystemService. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderForResult. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onResumeFragments()
+android.support.v4.app.FragmentActivity.onResumeFragments(),start:1497530186972,end:1497530186972
+android.support.v4.app.FragmentActivity.onResumeFragments()
+Override didn't work [source error] no such field: injectTime
+Skipping shouldUpRecreateTask. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSupportContentChanged()
+android.support.v7.app.AppCompatActivity.onSupportContentChanged(),start:1497530186972,end:1497530186972
+android.support.v7.app.AppCompatActivity.onSupportContentChanged()
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onActionModeFinished(android.view.ActionMode)
+android.app.Activity.onActionModeFinished(android.view.ActionMode),start:1497530186973,end:1497530186973
+android.app.Activity.onActionModeFinished(android.view.ActionMode)
+Override didn't work [source error] no such field: injectTime
+Skipping isDeviceProtectedStorage. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback)
+android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback),start:1497530186973,end:1497530186973
+android.app.Activity.onWindowStartingActionMode(android.view.ActionMode$Callback)
+Override didn't work [source error] no such field: injectTime
+Skipping setTitleColor. Either it is final, private or doesn't start by 'on...'
+Skipping removeDialog. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onTrackballEvent(android.view.MotionEvent)
+android.app.Activity.onTrackballEvent(android.view.MotionEvent),start:1497530186974,end:1497530186974
+android.app.Activity.onTrackballEvent(android.view.MotionEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping openOptionsMenu. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onOptionsMenuClosed(android.view.Menu)
+android.app.Activity.onOptionsMenuClosed(android.view.Menu),start:1497530186975,end:1497530186975
+android.app.Activity.onOptionsMenuClosed(android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping hasWindowFocus. Either it is final, private or doesn't start by 'on...'
+Skipping stopLocalVoiceInteraction. Either it is final, private or doesn't start by 'on...'
+Skipping unregisterComponentCallbacks. Either it is final, private or doesn't start by 'on...'
+Skipping getLastCustomNonConfigurationInstance. Either it is final, private or doesn't start by 'on...'
+Skipping dismissKeyboardShortcutsHelper. Either it is final, private or doesn't start by 'on...'
+Skipping getCacheDir. Either it is final, private or doesn't start by 'on...'
+Skipping createDeviceProtectedStorageContext. Either it is final, private or doesn't start by 'on...'
+Skipping openOrCreateDatabase. Either it is final, private or doesn't start by 'on...'
+Skipping obtainStyledAttributes. Either it is final, private or doesn't start by 'on...'
+Skipping finishActivity. Either it is final, private or doesn't start by 'on...'
+Skipping deleteDatabase. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onProvideReferrer()
+android.app.Activity.onProvideReferrer(),start:1497530186976,end:1497530186976
+android.app.Activity.onProvideReferrer()
+Override didn't work [source error] no such field: injectTime
+Skipping toString. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onDetachedFromWindow()
+android.app.Activity.onDetachedFromWindow(),start:1497530186976,end:1497530186976
+android.app.Activity.onDetachedFromWindow()
+Override didn't work [source error] no such field: injectTime
+Skipping wait. Either it is final, private or doesn't start by 'on...'
+Skipping getTitleColor. Either it is final, private or doesn't start by 'on...'
+Skipping sendStickyBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onOptionsItemSelected(android.view.MenuItem)
+android.app.Activity.onOptionsItemSelected(android.view.MenuItem),start:1497530186976,end:1497530186976
+android.app.Activity.onOptionsItemSelected(android.view.MenuItem)
+Override didn't work [source error] no such field: injectTime
+Skipping deleteFile. Either it is final, private or doesn't start by 'on...'
+Skipping moveSharedPreferencesFrom. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onPrepareDialog(int,android.app.Dialog)
+android.app.Activity.onPrepareDialog(int,android.app.Dialog),start:1497530186977,end:1497530186977
+android.app.Activity.onPrepareDialog(int,android.app.Dialog)
+Override didn't work [source error] no such field: injectTime
+Skipping setVisible. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromFragment. Either it is final, private or doesn't start by 'on...'
+Skipping setEnterSharedElementCallback. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onActionModeStarted(android.view.ActionMode)
+android.app.Activity.onActionModeStarted(android.view.ActionMode),start:1497530186977,end:1497530186977
+android.app.Activity.onActionModeStarted(android.view.ActionMode)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onWindowFocusChanged(boolean)
+android.app.Activity.onWindowFocusChanged(boolean),start:1497530186978,end:1497530186978
+android.app.Activity.onWindowFocusChanged(boolean)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onCreateNavigateUpTaskStack(android.app.TaskStackBuilder)
+android.app.Activity.onCreateNavigateUpTaskStack(android.app.TaskStackBuilder),start:1497530186978,end:1497530186978
+android.app.Activity.onCreateNavigateUpTaskStack(android.app.TaskStackBuilder)
+Override didn't work [source error] no such field: injectTime
+Skipping getDir. Either it is final, private or doesn't start by 'on...'
+Skipping getObbDir. Either it is final, private or doesn't start by 'on...'
+Skipping registerReceiver. Either it is final, private or doesn't start by 'on...'
+Skipping supportRequestWindowFeature. Either it is final, private or doesn't start by 'on...'
+Skipping reportFullyDrawn. Either it is final, private or doesn't start by 'on...'
+Skipping registerReceiver. Either it is final, private or doesn't start by 'on...'
+Skipping getDatabasePath. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping setSupportActionBar. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onResume()
+android.support.v4.app.FragmentActivity.onResume(),start:1497530186978,end:1497530186978
+android.support.v4.app.FragmentActivity.onResume()
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onAttachFragment(android.support.v4.app.Fragment)
+android.support.v4.app.FragmentActivity.onAttachFragment(android.support.v4.app.Fragment),start:1497530186979,end:1497530186979
+android.support.v4.app.FragmentActivity.onAttachFragment(android.support.v4.app.Fragment)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentActivity.onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet),start:1497530186979,end:1497530186979
+android.support.v4.app.FragmentActivity.onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet)
+Override didn't work [source error] no such field: injectTime
+Skipping shouldShowRequestPermissionRationale. Either it is final, private or doesn't start by 'on...'
+Skipping recreate. Either it is final, private or doesn't start by 'on...'
+Skipping checkCallingOrSelfPermission. Either it is final, private or doesn't start by 'on...'
+Skipping startNextMatchingActivity. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onTrimMemory(int)
+android.app.Activity.onTrimMemory(int),start:1497530186980,end:1497530186980
+android.app.Activity.onTrimMemory(int)
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onPause()
+android.support.v4.app.FragmentActivity.onPause(),start:1497530186980,end:1497530186980
+android.support.v4.app.FragmentActivity.onPause()
+Override didn't work [source error] no such field: injectTime
+Skipping getChangingConfigurations. Either it is final, private or doesn't start by 'on...'
+Skipping wait. Either it is final, private or doesn't start by 'on...'
+Skipping getWallpaperDesiredMinimumWidth. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping enforceCallingPermission. Either it is final, private or doesn't start by 'on...'
+Skipping dismissDialog. Either it is final, private or doesn't start by 'on...'
+Skipping setContentView. Either it is final, private or doesn't start by 'on...'
+Skipping startActivities. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onKeyDown(int,android.view.KeyEvent)
+android.app.Activity.onKeyDown(int,android.view.KeyEvent),start:1497530186982,end:1497530186982
+android.app.Activity.onKeyDown(int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping sendOrderedBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping doReallyStop. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onRestoreInstanceState(android.os.Bundle,android.os.PersistableBundle)
+android.app.Activity.onRestoreInstanceState(android.os.Bundle,android.os.PersistableBundle),start:1497530186982,end:1497530186982
+android.app.Activity.onRestoreInstanceState(android.os.Bundle,android.os.PersistableBundle)
+Override didn't work [source error] no such field: injectTime
+Skipping postponeEnterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping setFeatureDrawableUri. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityIfNeeded. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromFragment. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onCreateSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder)
+android.support.v7.app.AppCompatActivity.onCreateSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder),start:1497530186983,end:1497530186983
+android.support.v7.app.AppCompatActivity.onCreateSupportNavigateUpTaskStack(android.support.v4.app.TaskStackBuilder)
+Override didn't work [source error] no such field: injectTime
+Skipping getDataDir. Either it is final, private or doesn't start by 'on...'
+Skipping putExtraData. Either it is final, private or doesn't start by 'on...'
+Skipping hashCode. Either it is final, private or doesn't start by 'on...'
+Skipping getExtraData. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onTitleChanged(java.lang.CharSequence,int)
+android.support.v7.app.AppCompatActivity.onTitleChanged(java.lang.CharSequence,int),start:1497530186983,end:1497530186983
+android.support.v7.app.AppCompatActivity.onTitleChanged(java.lang.CharSequence,int)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onKeyUp(int,android.view.KeyEvent)
+android.app.Activity.onKeyUp(int,android.view.KeyEvent),start:1497530186984,end:1497530186984
+android.app.Activity.onKeyUp(int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onCreateThumbnail(android.graphics.Bitmap,android.graphics.Canvas)
+android.app.Activity.onCreateThumbnail(android.graphics.Bitmap,android.graphics.Canvas),start:1497530186984,end:1497530186984
+android.app.Activity.onCreateThumbnail(android.graphics.Bitmap,android.graphics.Canvas)
+Override didn't work [source error] no such field: injectTime
+Skipping getMainLooper. Either it is final, private or doesn't start by 'on...'
+Skipping sendStickyBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping requestVisibleBehind. Either it is final, private or doesn't start by 'on...'
+Skipping getString. Either it is final, private or doesn't start by 'on...'
+Skipping closeContextMenu. Either it is final, private or doesn't start by 'on...'
+Skipping getSupportLoaderManager. Either it is final, private or doesn't start by 'on...'
+Skipping stopManagingCursor. Either it is final, private or doesn't start by 'on...'
+Skipping setContentView. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onPrepareOptionsPanel(android.view.View,android.view.Menu)
+android.support.v4.app.FragmentActivity.onPrepareOptionsPanel(android.view.View,android.view.Menu),start:1497530186984,end:1497530186984
+android.support.v4.app.FragmentActivity.onPrepareOptionsPanel(android.view.View,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping setSupportProgressBarIndeterminate. Either it is final, private or doesn't start by 'on...'
+Skipping getColorStateList. Either it is final, private or doesn't start by 'on...'
+Skipping requestPermissions. Either it is final, private or doesn't start by 'on...'
+Skipping getCodeCacheDir. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onRetainCustomNonConfigurationInstance()
+android.support.v4.app.FragmentActivity.onRetainCustomNonConfigurationInstance(),start:1497530186985,end:1497530186985
+android.support.v4.app.FragmentActivity.onRetainCustomNonConfigurationInstance()
+Override didn't work [source error] no such field: injectTime
+Skipping overridePendingTransition. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onUserInteraction()
+android.app.Activity.onUserInteraction(),start:1497530186985,end:1497530186985
+android.app.Activity.onUserInteraction()
+Override didn't work [source error] no such field: injectTime
+Skipping getLayoutInflater. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onStop()
+android.support.v7.app.AppCompatActivity.onStop(),start:1497530186985,end:1497530186985
+android.support.v7.app.AppCompatActivity.onStop()
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onWindowAttributesChanged(android.view.WindowManager$LayoutParams)
+android.app.Activity.onWindowAttributesChanged(android.view.WindowManager$LayoutParams),start:1497530186986,end:1497530186986
+android.app.Activity.onWindowAttributesChanged(android.view.WindowManager$LayoutParams)
+Override didn't work [source error] no such field: injectTime
+Skipping requestDragAndDropPermissions. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onSupportActionModeFinished(android.support.v7.view.ActionMode)
+android.support.v7.app.AppCompatActivity.onSupportActionModeFinished(android.support.v7.view.ActionMode),start:1497530186986,end:1497530186986
+android.support.v7.app.AppCompatActivity.onSupportActionModeFinished(android.support.v7.view.ActionMode)
+Override didn't work [source error] no such field: injectTime
+Skipping setSupportMediaController. Either it is final, private or doesn't start by 'on...'
+Skipping supportShouldUpRecreateTask. Either it is final, private or doesn't start by 'on...'
+Skipping setProgressBarIndeterminateVisibility. Either it is final, private or doesn't start by 'on...'
+Skipping removeStickyBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchGenericMotionEvent. Either it is final, private or doesn't start by 'on...'
+Skipping getWindowManager. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onPrepareOptionsMenu(android.view.Menu)
+android.app.Activity.onPrepareOptionsMenu(android.view.Menu),start:1497530186987,end:1497530186987
+android.app.Activity.onPrepareOptionsMenu(android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping enforceCallingOrSelfPermission. Either it is final, private or doesn't start by 'on...'
+Skipping startNextMatchingActivity. Either it is final, private or doesn't start by 'on...'
+Skipping finishFromChild. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onContextMenuClosed(android.view.Menu)
+android.app.Activity.onContextMenuClosed(android.view.Menu),start:1497530186987,end:1497530186987
+android.app.Activity.onContextMenuClosed(android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping setFinishOnTouchOutside. Either it is final, private or doesn't start by 'on...'
+Skipping startSupportActionMode. Either it is final, private or doesn't start by 'on...'
+Skipping invalidateOptionsMenu. Either it is final, private or doesn't start by 'on...'
+Skipping setExitSharedElementCallback. Either it is final, private or doesn't start by 'on...'
+Skipping revokeUriPermission. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onLocalVoiceInteractionStopped()
+android.app.Activity.onLocalVoiceInteractionStopped(),start:1497530186987,end:1497530186987
+android.app.Activity.onLocalVoiceInteractionStopped()
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onActivityResult(int,int,android.content.Intent)
+android.support.v4.app.FragmentActivity.onActivityResult(int,int,android.content.Intent),start:1497530186988,end:1497530186988
+android.support.v4.app.FragmentActivity.onActivityResult(int,int,android.content.Intent)
+Override didn't work [source error] no such field: injectTime
+Skipping finishAffinity. Either it is final, private or doesn't start by 'on...'
+Skipping setFeatureDrawableAlpha. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onKeyMultiple(int,int,android.view.KeyEvent)
+android.app.Activity.onKeyMultiple(int,int,android.view.KeyEvent),start:1497530186988,end:1497530186988
+android.app.Activity.onKeyMultiple(int,int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping getTitle. Either it is final, private or doesn't start by 'on...'
+Skipping createPackageContext. Either it is final, private or doesn't start by 'on...'
+Skipping enforceUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSenderForResult. Either it is final, private or doesn't start by 'on...'
+Skipping clearWallpaper. Either it is final, private or doesn't start by 'on...'
+Skipping isLocalVoiceInteractionSupported. Either it is final, private or doesn't start by 'on...'
+Skipping isRestricted. Either it is final, private or doesn't start by 'on...'
+Skipping openFileOutput. Either it is final, private or doesn't start by 'on...'
+Skipping supportFinishAfterTransition. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onReallyStop()
+android.support.v4.app.FragmentActivity.onReallyStop(),start:1497530186989,end:1497530186989
+android.support.v4.app.FragmentActivity.onReallyStop()
+Override didn't work [source error] no such field: injectTime
+Skipping onMenuItemSelected. Either it is final, private or doesn't start by 'on...'
+Skipping getSupportActionBar. Either it is final, private or doesn't start by 'on...'
+Skipping startActivity. Either it is final, private or doesn't start by 'on...'
+Skipping enforcePermission. Either it is final, private or doesn't start by 'on...'
+Skipping getString. Either it is final, private or doesn't start by 'on...'
+Skipping openFileInput. Either it is final, private or doesn't start by 'on...'
+Skipping getContentTransitionManager. Either it is final, private or doesn't start by 'on...'
+Skipping supportPostponeEnterTransition. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchTrackballEvent. Either it is final, private or doesn't start by 'on...'
+Skipping notifyAll. Either it is final, private or doesn't start by 'on...'
+Skipping getRequestedOrientation. Either it is final, private or doesn't start by 'on...'
+Skipping sendBroadcast. Either it is final, private or doesn't start by 'on...'
+Skipping checkSelfPermission. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onActivityReenter(int,android.content.Intent)
+android.app.Activity.onActivityReenter(int,android.content.Intent),start:1497530186990,end:1497530186990
+android.app.Activity.onActivityReenter(int,android.content.Intent)
+Override didn't work [source error] no such field: injectTime
+Skipping getSharedPreferences. Either it is final, private or doesn't start by 'on...'
+Skipping setSupportProgressBarIndeterminateVisibility. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalFilesDir. Either it is final, private or doesn't start by 'on...'
+Skipping startActionMode. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onPanelClosed(int,android.view.Menu)
+android.support.v7.app.AppCompatActivity.onPanelClosed(int,android.view.Menu),start:1497530186991,end:1497530186991
+android.support.v7.app.AppCompatActivity.onPanelClosed(int,android.view.Menu)
+Override didn't work [source error] no such field: injectTime
+Skipping triggerSearch. Either it is final, private or doesn't start by 'on...'
+Skipping takeKeyEvents. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onVisibleBehindCanceled()
+android.app.Activity.onVisibleBehindCanceled(),start:1497530186991,end:1497530186991
+android.app.Activity.onVisibleBehindCanceled()
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onProvideAssistContent(android.app.assist.AssistContent)
+android.app.Activity.onProvideAssistContent(android.app.assist.AssistContent),start:1497530186991,end:1497530186992
+android.app.Activity.onProvideAssistContent(android.app.assist.AssistContent)
+Override didn't work [source error] no such field: injectTime
+Skipping startActivityIfNeeded. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityForResult. Either it is final, private or doesn't start by 'on...'
+Skipping getSupportFragmentManager. Either it is final, private or doesn't start by 'on...'
+Skipping startActivityFromChild. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onLocalVoiceInteractionStarted()
+android.app.Activity.onLocalVoiceInteractionStarted(),start:1497530186992,end:1497530186992
+android.app.Activity.onLocalVoiceInteractionStarted()
+Override didn't work [source error] no such field: injectTime
+Skipping moveDatabaseFrom. Either it is final, private or doesn't start by 'on...'
+Skipping setIntent. Either it is final, private or doesn't start by 'on...'
+Skipping getExternalMediaDirs. Either it is final, private or doesn't start by 'on...'
+Skipping finish. Either it is final, private or doesn't start by 'on...'
+Skipping checkUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping moveTaskToBack. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onConfigurationChanged(android.content.res.Configuration)
+android.support.v7.app.AppCompatActivity.onConfigurationChanged(android.content.res.Configuration),start:1497530186992,end:1497530186992
+android.support.v7.app.AppCompatActivity.onConfigurationChanged(android.content.res.Configuration)
+Override didn't work [source error] no such field: injectTime
+Skipping attachBaseContext. Either it is final, private or doesn't start by 'on...'
+Skipping navigateUpToFromChild. Either it is final, private or doesn't start by 'on...'
+Skipping setProgressBarIndeterminate. Either it is final, private or doesn't start by 'on...'
+Skipping showLockTaskEscapeMessage. Either it is final, private or doesn't start by 'on...'
+Skipping getContentResolver. Either it is final, private or doesn't start by 'on...'
+Skipping getLoaderManager. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onProvideAssistData(android.os.Bundle)
+android.app.Activity.onProvideAssistData(android.os.Bundle),start:1497530186993,end:1497530186993
+android.app.Activity.onProvideAssistData(android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onPostCreate(android.os.Bundle,android.os.PersistableBundle)
+android.app.Activity.onPostCreate(android.os.Bundle,android.os.PersistableBundle),start:1497530186993,end:1497530186993
+android.app.Activity.onPostCreate(android.os.Bundle,android.os.PersistableBundle)
+Override didn't work [source error] no such field: injectTime
+Skipping stopLockTask. Either it is final, private or doesn't start by 'on...'
+Skipping getWindow. Either it is final, private or doesn't start by 'on...'
+Skipping wait. Either it is final, private or doesn't start by 'on...'
+Skipping openOrCreateDatabase. Either it is final, private or doesn't start by 'on...'
+Skipping checkForValidRequestCode. Either it is final, private or doesn't start by 'on...'
+Skipping openContextMenu. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onStateNotSaved()
+android.support.v4.app.FragmentActivity.onStateNotSaved(),start:1497530186994,end:1497530186994
+android.support.v4.app.FragmentActivity.onStateNotSaved()
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v4.app.FragmentActivity.onLowMemory()
+android.support.v4.app.FragmentActivity.onLowMemory(),start:1497530186994,end:1497530186994
+android.support.v4.app.FragmentActivity.onLowMemory()
+Override didn't work [source error] no such field: injectTime
+Skipping deleteSharedPreferences. Either it is final, private or doesn't start by 'on...'
+Skipping setTitle. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onNewIntent(android.content.Intent)
+android.support.v4.app.FragmentActivity.onNewIntent(android.content.Intent),start:1497530186994,end:1497530186994
+android.support.v4.app.FragmentActivity.onNewIntent(android.content.Intent)
+Override didn't work [source error] no such field: injectTime
+Skipping startLockTask. Either it is final, private or doesn't start by 'on...'
+Skipping bindService. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onRestart()
+android.app.Activity.onRestart(),start:1497530186994,end:1497530186994
+android.app.Activity.onRestart()
+Override didn't work [source error] no such field: injectTime
+Skipping printName. Either it is final, private or doesn't start by 'on...'
+Skipping getObbDirs. Either it is final, private or doesn't start by 'on...'
+Skipping getSearchEvent. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onUserLeaveHint()
+android.app.Activity.onUserLeaveHint(),start:1497530186994,end:1497530186994
+android.app.Activity.onUserLeaveHint()
+Override didn't work [source error] no such field: injectTime
+Skipping dump. Either it is final, private or doesn't start by 'on...'
+Skipping validateRequestPermissionsRequestCode. Either it is final, private or doesn't start by 'on...'
+Skipping databaseList. Either it is final, private or doesn't start by 'on...'
+Skipping setResult. Either it is final, private or doesn't start by 'on...'
+Skipping supportNavigateUpTo. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onCreateDialog(int,android.os.Bundle)
+android.app.Activity.onCreateDialog(int,android.os.Bundle),start:1497530186994,end:1497530186994
+android.app.Activity.onCreateDialog(int,android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Skipping getLastNonConfigurationInstance. Either it is final, private or doesn't start by 'on...'
+Skipping getClassLoader. Either it is final, private or doesn't start by 'on...'
+Skipping checkUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping requestWindowFeature. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onSearchRequested(android.view.SearchEvent)
+android.app.Activity.onSearchRequested(android.view.SearchEvent),start:1497530186994,end:1497530186994
+android.app.Activity.onSearchRequested(android.view.SearchEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping setContentView. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchKeyShortcutEvent. Either it is final, private or doesn't start by 'on...'
+Skipping isChild. Either it is final, private or doesn't start by 'on...'
+Skipping isVoiceInteractionRoot. Either it is final, private or doesn't start by 'on...'
+Skipping getApplication. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onKeyShortcut(int,android.view.KeyEvent)
+android.app.Activity.onKeyShortcut(int,android.view.KeyEvent),start:1497530186994,end:1497530186994
+android.app.Activity.onKeyShortcut(int,android.view.KeyEvent)
+Override didn't work [source error] no such field: injectTime
+Skipping getFragmentManager. Either it is final, private or doesn't start by 'on...'
+Skipping enforceUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping supportInvalidateOptionsMenu. Either it is final, private or doesn't start by 'on...'
+Skipping isVoiceInteraction. Either it is final, private or doesn't start by 'on...'
+Skipping setProgressBarVisibility. Either it is final, private or doesn't start by 'on...'
+Skipping getFilesDir. Either it is final, private or doesn't start by 'on...'
+Skipping dispatchFragmentsOnCreateView. Either it is final, private or doesn't start by 'on...'
+Skipping getSystemService. Either it is final, private or doesn't start by 'on...'
+Skipping getBaseContext. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onContextItemSelected(android.view.MenuItem)
+android.app.Activity.onContextItemSelected(android.view.MenuItem),start:1497530186995,end:1497530186995
+android.app.Activity.onContextItemSelected(android.view.MenuItem)
+Override didn't work [source error] no such field: injectTime
+Skipping getComponentName. Either it is final, private or doesn't start by 'on...'
+Skipping getWallpaperDesiredMinimumHeight. Either it is final, private or doesn't start by 'on...'
+Skipping grantUriPermission. Either it is final, private or doesn't start by 'on...'
+Skipping isImmersive. Either it is final, private or doesn't start by 'on...'
+Skipping getCurrentFocus. Either it is final, private or doesn't start by 'on...'
+Skipping setProgress. Either it is final, private or doesn't start by 'on...'
+Skipping startIntentSender. Either it is final, private or doesn't start by 'on...'
+Skipping setFeatureDrawableResource. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onProvideKeyboardShortcuts(java.util.List,android.view.Menu,int)
+android.app.Activity.onProvideKeyboardShortcuts(java.util.List,android.view.Menu,int),start:1497530186995,end:1497530186995
+android.app.Activity.onProvideKeyboardShortcuts(java.util.List,android.view.Menu,int)
+Override didn't work [source error] no such field: injectTime
+Skipping getSupportMediaController. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onNavigateUpFromChild(android.app.Activity)
+android.app.Activity.onNavigateUpFromChild(android.app.Activity),start:1497530186995,end:1497530186995
+android.app.Activity.onNavigateUpFromChild(android.app.Activity)
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onAttachedToWindow()
+android.app.Activity.onAttachedToWindow(),start:1497530186995,end:1497530186995
+android.app.Activity.onAttachedToWindow()
+Override didn't work [source error] no such field: injectTime
+Skipping managedQuery. Either it is final, private or doesn't start by 'on...'
+Overriding android.app.Activity.onNavigateUp()
+android.app.Activity.onNavigateUp(),start:1497530186995,end:1497530186995
+android.app.Activity.onNavigateUp()
+Override didn't work [source error] no such field: injectTime
+Overriding android.support.v7.app.AppCompatActivity.onDestroy()
+android.support.v7.app.AppCompatActivity.onDestroy(),start:1497530186996,end:1497530186996
+android.support.v7.app.AppCompatActivity.onDestroy()
+Override didn't work [source error] no such field: injectTime
+Skipping getFileStreamPath. Either it is final, private or doesn't start by 'on...'
+Skipping getIntent. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onMultiWindowModeChanged(boolean)
+android.support.v4.app.FragmentActivity.onMultiWindowModeChanged(boolean),start:1497530186996,end:1497530186996
+android.support.v4.app.FragmentActivity.onMultiWindowModeChanged(boolean)
+Override didn't work [source error] no such field: injectTime
+Skipping getMediaController. Either it is final, private or doesn't start by 'on...'
+Skipping setEnterSharedElementCallback. Either it is final, private or doesn't start by 'on...'
+Skipping showDialog. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onPostResume()
+android.support.v7.app.AppCompatActivity.onPostResume(),start:1497530186997,end:1497530186997
+android.support.v7.app.AppCompatActivity.onPostResume()
+Override didn't work [source error] no such field: injectTime
+Overriding android.app.Activity.onChildTitleChanged(android.app.Activity,java.lang.CharSequence)
+android.app.Activity.onChildTitleChanged(android.app.Activity,java.lang.CharSequence),start:1497530186997,end:1497530186997
+android.app.Activity.onChildTitleChanged(android.app.Activity,java.lang.CharSequence)
+Override didn't work [source error] no such field: injectTime
+Skipping getPackageResourcePath. Either it is final, private or doesn't start by 'on...'
+Skipping checkPermission. Either it is final, private or doesn't start by 'on...'
+Skipping getPackageName. Either it is final, private or doesn't start by 'on...'
+Skipping getResources. Either it is final, private or doesn't start by 'on...'
+Skipping setExitSharedElementCallback. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v4.app.FragmentActivity.onPictureInPictureModeChanged(boolean)
+android.support.v4.app.FragmentActivity.onPictureInPictureModeChanged(boolean),start:1497530186998,end:1497530186998
+android.support.v4.app.FragmentActivity.onPictureInPictureModeChanged(boolean)
+Override didn't work [source error] no such field: injectTime
+Skipping setTheme. Either it is final, private or doesn't start by 'on...'
+Skipping getText. Either it is final, private or doesn't start by 'on...'
+Skipping enterPictureInPictureMode. Either it is final, private or doesn't start by 'on...'
+Skipping getParentActivityIntent. Either it is final, private or doesn't start by 'on...'
+Skipping applyOverrideConfiguration. Either it is final, private or doesn't start by 'on...'
+Overriding android.support.v7.app.AppCompatActivity.onPostCreate(android.os.Bundle)
+android.support.v7.app.AppCompatActivity.onPostCreate(android.os.Bundle),start:1497530186999,end:1497530186999
+android.support.v7.app.AppCompatActivity.onPostCreate(android.os.Bundle)
+Override didn't work [source error] no such field: injectTime
+Skipping sendBroadcastAsUser. Either it is final, private or doesn't start by 'on...'
+Skipping startInstrumentation. Either it is final, private or doesn't start by 'on...'
+Skipping checkCallingPermission. Either it is final, private or doesn't start by 'on...'
+Transformation successful for com.example.setting.SettingActivity
+:setting:copyTransformedLogLifeCycleProcessorDebug
+:setting:extractDebugAnnotations
+:setting:mergeDebugShaders
+:setting:compileDebugShaders
+:setting:generateDebugAssets
+:setting:mergeDebugAssets
+:setting:mergeDebugProguardFiles UP-TO-DATE
+:setting:packageDebugRenderscript UP-TO-DATE
+:setting:packageDebugResources
+:setting:processDebugJavaRes UP-TO-DATE
+:setting:transformResourcesWithMergeJavaResForDebug
+:setting:transformClassesAndResourcesWithSyncLibJarsForDebug
+:setting:mergeDebugJniLibFolders
+:setting:transformNativeLibsWithMergeJniLibsForDebug
+:setting:transformNativeLibsWithSyncJniLibsForDebug
+:setting:bundleDebug
+:setting:compileDebugSources
+:setting:assembleDebug
+
+BUILD SUCCESSFUL
+
+Total time: 4.481 secs

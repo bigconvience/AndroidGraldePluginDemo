@@ -1,9 +1,8 @@
 package com.example.setting;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SettingActivity extends AppCompatActivity {
+public class SettingActivity extends AbsSettingActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,7 +11,8 @@ public class SettingActivity extends AppCompatActivity {
         printName();
     }
 
-    public void printName() {
+    @Override
+    protected void printName() {
         System.out.println("printSettingActivity");
     }
 }

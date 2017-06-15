@@ -41,11 +41,5 @@ buildscript {
         classpath 'com.afterecho.demo:gradle-plugin-test:1.0.0'
     }
 }
-apply plugin: 'byte-modify'
-apply plugin: 'blog-plugin'
-
-bpplugin {
-    words "plugin_words.txt"
-    enumClass "WordsEnum"
-    outputPackage "com.afterecho.android.util"
-}
+//apply plugin: 'byte-modify'
+apply plugin: 'loglifecycle-plugin'
